@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: grid;
+
+  margin: auto;
+  margin-top: 5vh;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: fit-content;
+  border: 1px solid #e9eaec;
+  border-radius: 10px;
+}
+main h1 {
+  margin-top: 7vh;
+  font-weight: 500;
+  font-size: 25px;
+}
+main h2 {
+  font-weight: normal;
+}
+main em {
+  font-style: normal;
+}
+main em#blue {
+  color: #4285f4;
+}
+main em#red {
+  color: #ea4335;
+}
+main em#green {
+  color: #34a853;
+}
+main em#yellow {
+  color: #fbbc05;
+}
+
+main div.left {
+  display: inline-block;
+  /* height: 92%; */
+  /* width: 50%; */
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  /* background-color: rebeccapurple; */
+}
+main input {
+  margin-top: 2rem;
+  width: 23vh;
+  padding: 1.5vh 1vh;
+  border-radius: 5px;
+  border: 1px solid #e9eaec;
+}
+main input:focus {
+  outline: none;
+  border: 2px solid #2d65d4;
+}
+main #email {
+  margin-top: 2rem;
+  width: 48vh;
+}
+main p#stuff {
+  color: gray;
+  font-size: small;
+  padding: 0.7vh 0 0 1.5vh;
+}
+main a {
+  text-decoration: none;
+  color: #1e80ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+main #password{
+  margin-right: 1rem;
+}
+main label {
+  cursor: pointer;
+  margin-left: 2vh;
+  font-size: small;
+}
+main input#checkbox {
+  width: 20px;
+  height: 20px;
+}
+main #instead {
+  display: inline-block;
+  margin-top: 5vh;
+}
+main #button {
+  width: 10vh;
+  float: right;
+  background-color: #1e80ff;
+  color: rgba(255, 255, 255);
+}
+img {
+  width: 252px;
+  margin: 15vh 15vh 0 10vh;
+}
+figcaption {
+  text-align: center;
+  font-size: large;
+}
+footer {
+  margin: 1.6rem auto;
+  width: 70%;
+  font-size: small;
+  padding: 0 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: gray;
+  padding-left: 1rem;
+}
